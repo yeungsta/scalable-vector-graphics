@@ -1,0 +1,12 @@
+<div class="foo">
+    //<a href="/darelcarey?imageIdx=1&style=draw">
+        <span class='selected' *ngIf="style==='draw'">draw</span>
+        <span *ngIf="style!=='draw'">draw</span></a>
+    //<a href="/darelcarey?imageIdx=4&style=rotatePieces">
+        <span class='selected' *ngIf="style==='rotatePieces'">rotate</span>
+        <span *ngIf="style!=='rotatePieces'">rotate</span></a>
+    //<a href="/darelcarey?imageIdx=0&style=disintegrate">
+        <span class='selected' *ngIf="style==='disintegrate'">disintegrate</span>
+        <span *ngIf="style!=='disintegrate'">disintegrate</span></a>
+    <canvas #canvasElement resize="true"></canvas>
+</div>
